@@ -138,3 +138,151 @@ Interactive Elements
     transition-property: color;
     transition-duration: 0.5;
 }
+
+/*Button Submit Elements*/
+.button-submit{
+    display: inline-block;
+    padding: 1.25em 3em 1.25em 3em;
+
+    margin: 1em 0;
+
+    font-size: 0.75;
+    font-weight: 600;
+
+    color: white;
+    background-color: #191919;
+    border: none; 
+
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 0.25s;
+}
+
+.button-submit:hover,
+.button-submit:focus{
+    background-color: #4d4d4d;
+    color: white;
+    cursor: pointer;
+}
+
+.button-submit-red{
+    display: flex;
+    padding: 1.25m 3em 1.25em 3em;
+
+    justify-content: center;
+    margin: 0;
+
+    font-size: 0.75em; 
+    font-weight: 600;
+
+    color: white;
+    background-color: #cd3b28;
+    border: none;
+
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 0.25s;
+}
+
+.button-submit-red:hover,
+.button-submit-red:focus{
+    background-color: #ad3120;
+    cursor: pointer;
+}
+
+/*Button Reset Elements*/
+.button-reset{
+    display: inline-block;
+    padding: 1.25em 3em 1.25em 3em;
+
+    margin: 0;
+    margin-top: 0.75em;
+
+    font-size: 0.75em;
+    font-weight: 600;
+    color: #191919;
+
+    border-color: #191919;
+    border-width: 1px;
+    background-color: white;
+    border-style: solid;
+
+    text-decoration:none;
+    transition-property: background-color;
+    transition-duration: 0.25s;
+}
+
+.button-reset:hover,
+.button-reset:focus{
+    background-color: #fbfafa;
+    cursor: pointer;
+}
+
+.buton-reset-red{
+    display: inline-block;
+    padding: 1.25em 3em 1.25em 3em;
+
+    margin: 0.5em;
+
+    font-size: 0.75em;
+    font-weight: 600;
+    color: #CD3B28;
+
+    border-color: #CD3B28;
+}
+
+.button-reeset-red:hover,
+.button-reset-red:focus{
+    background-color: #fefaf9;
+    cursor: pointer;
+}
+
+/* NAV BAR ELEMENTS */
+.navbar{
+    width: 100%;
+    height: var(--nav-height);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-width: 1px;
+    border-color: #EEE;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    margin: auto;
+    padding: 1em 0 1em 0;
+    z-index: 1;
+}
+
+.navbar--hidden{
+    transform: translateY(calc(-1.5 * var(--nav-height)));
+    box-shadow: none;
+}
+
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar-item{
+    transition-duration: 0.4s;
+    list-style: none;
+    font-size: 3em;
+}
+
+ul{
+    color: #191919
+}
