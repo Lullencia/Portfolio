@@ -1,0 +1,140 @@
+/*Style Guide Styling*/
+body{
+    --nav-height: 4rem;
+    padding-top: var(--nav-height);
+    background-color: #ffffff;
+    color: #191919;
+    font-family: 'GeneralSans';
+}
+
+.element{
+    border-top-width: 0.10rem;
+    border-top-style: solid;
+    border-top-color: #eee;
+    padding: 1rem;
+    max-width: 60em;
+}
+
+.section-title{
+    margin: 1em 2em;
+}
+
+.section-full-bleed {
+    padding: 3em 2em;
+    margin: 3em 0 3em 0;
+
+    background-color: #ffffff;
+
+
+    border-width: 1px;
+    border-color: #EEE;
+
+    border-top-style: solid;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+}
+  
+.section-content {
+    margin: 1em 2em 5em 2em;
+    max-width: 60em;
+}
+  
+.section-content-center {
+    margin: 1em 2em 5em 2em;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3em;
+
+    margin: 0.25em 0 0.25em 0;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2.5em;
+
+    margin: 0.25em 0 0.25em 0;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+
+    margin: 0.25em 0 0.25em 0;
+
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.25em;
+
+    margin: 0.25em 0 0.25em 0;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 1em;
+    margin: 0.5em 1em 0.5em 0;
+    text-transform: uppercase;
+    color: #CD3B28;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 1em;
+    margin: 0.5em 1em 0.5em 0;
+    text-transform: uppercase;
+    color: white;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0;
+}
+
+b {
+    font-weight: 600;
+}
+
+a {
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
+.color-ellipse:hover,
+.color-ellipse:focus,
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #CD3B28;
+    cursor: pointer;
+}
+
+/*
+Interactive Elements
+*/
+
+/* Navigation Button Styling */
+.button-nav{
+    display: inline-block;
+    padding: 0.5em;
+    margin-right: 2.5em;
+
+    font-size: 0.9em;
+
+    color: #a3a3a3;
+    font-weight: 400;
+
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5;
+}
