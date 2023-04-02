@@ -286,3 +286,45 @@ Interactive Elements
 ul{
     color: #191919
 }
+
+/* Footer Elements */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0rem 1rem;
+    padding-bottom: 1rem;
+    background-color: #ad3120;
+    color: white;
+}
+
+.footerCopy{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    margin-top: 5rem;
+}
+
+.footerLink{
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.footerLink:hover,
+.footerLink:focus{
+    color: #a3a3a3;
+}
+
+.footerText{
+    font-weight: lighter;
+    padding: 0rem 0.5rem;
+}
+
+.footerH1{
+    color: white;
+    margin-bottom: 0.25rem;
+    opacity: 70%;
+    text-align: center;
+}
