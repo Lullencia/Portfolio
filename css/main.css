@@ -84,7 +84,7 @@ h5 {
     font-size: 1em;
     margin: 0.5em 1em 0.5em 0;
     text-transform: uppercase;
-    color: #CD3B28;
+    color: #4b87cc;
 }
 
 h6 {
@@ -115,7 +115,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #CD3B28;
+    color: #4b87cc;
     cursor: pointer;
 }
 
@@ -136,7 +136,7 @@ Interactive Elements
 
     text-decoration: none;
     transition-property: color;
-    transition-duration: 0.5;
+    transition-duration: 0.5s;
 }
 
 /*Button Submit Elements*/
@@ -146,7 +146,7 @@ Interactive Elements
 
     margin: 1em 0;
 
-    font-size: 0.75;
+    font-size: 0.75em;
     font-weight: 600;
 
     color: white;
@@ -165,9 +165,9 @@ Interactive Elements
     cursor: pointer;
 }
 
-.button-submit-red{
+.button-submit-blue{
     display: flex;
-    padding: 1.25m 3em 1.25em 3em;
+    padding: 1.25em 3em 1.25em 3em;
 
     justify-content: center;
     margin: 0;
@@ -176,7 +176,7 @@ Interactive Elements
     font-weight: 600;
 
     color: white;
-    background-color: #cd3b28;
+    background-color: #4b87cc;
     border: none;
 
     text-decoration: none;
@@ -184,9 +184,9 @@ Interactive Elements
     transition-duration: 0.25s;
 }
 
-.button-submit-red:hover,
-.button-submit-red:focus{
-    background-color: #ad3120;
+.button-submit-blue:hover,
+.button-submit-blue:focus{
+    background-color: #4b87cc;
     cursor: pointer;
 }
 
@@ -226,9 +226,9 @@ Interactive Elements
 
     font-size: 0.75em;
     font-weight: 600;
-    color: #CD3B28;
+    color: #4b87cc;
 
-    border-color: #CD3B28;
+    border-color: #4b87cc;
 }
 
 .button-reeset-red:hover,
@@ -294,7 +294,7 @@ ul{
     justify-content: center;
     padding: 0rem 1rem;
     padding-bottom: 1rem;
-    background-color: #ad3120;
+    background-color: #4b87cc;
     color: white;
 }
 
@@ -328,3 +328,5 @@ ul{
     opacity: 70%;
     text-align: center;
 }
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow*/
