@@ -1,4 +1,7 @@
 /*Style Guide Styling*/
+.blue-color{
+    color:#0d71ac;
+}
 body{
     --nav-height: 4rem;
     padding-top: var(--nav-height);
@@ -8,12 +11,12 @@ body{
 }
 
 .element{
-    border-top-width: 0.15rem;
+    border-top-width: 0.20rem;
     border-top-style: solid;
-    border-top-color: #eee;
+    border-top-color: #4b87cc;
 
     padding: 2rem;
-    max-width: 60em;
+    max-width: 70em;
 }
 
 .element2{
@@ -337,11 +340,12 @@ ul{
 
 /*Website Styling*/
 .contact{
-    height: auto;
+    margin: 0 40em 2em 40em;
     display: flex;
+    flex-direction:row;
+
     justify-content: space-between;
-    flex-wrap: nowrap;
-    align-content: center;
+    align-items: center;
 }
 
 .centered{
@@ -423,4 +427,22 @@ ul{
 @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
+}
+
+.content-center{
+    margin: 1em 2em 3em 2em;
+    display: flex;
+    flex-direction:column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.content-center2{
+    margin: 1em 2em 1em 2em;
+    display: flex;
+    flex-direction:column;
+
+    justify-content: center;
+    align-items: center;
 }
